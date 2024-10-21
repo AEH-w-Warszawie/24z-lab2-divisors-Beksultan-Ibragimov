@@ -3,6 +3,7 @@
 
 std::vector<unsigned long long> divisors(unsigned long long number)
 {
+	//write more fast algorithm(whatch the lecture)
 	std::vector<unsigned long long> result;
 	for (unsigned long long i = 1; i <= number; ++i)
 	{
